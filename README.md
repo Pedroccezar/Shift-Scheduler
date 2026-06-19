@@ -1,4 +1,4 @@
-# 📅 Sheet Generator — Gerador de Escalas de Plantão
+# 📅 Shift Scheduler — Gerador de Escalas de Plantão
 
 Automatiza a criação de escalas de trabalho semanais com base na disponibilidade de cada membro, distribuindo-os de forma equilibrada e aplicando um rodízio circular entre os dias.
 
