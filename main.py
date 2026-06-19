@@ -21,9 +21,9 @@ creds = Credentials.from_service_account_file(
 )
 
 client = gspread.authorize(creds)
-sheet = client.open_by_key("15SpGslotuwfz7Fzc6eSFAw690tEsepahhj9vq-3yHw8").sheet1
+sheet = client.open_by_key("SUA_PLANILHA_KEY").sheet1
 
-url = 'https://docs.google.com/spreadsheets/d/17p7v_DldO4hYvko52K_RLS-a9RCNEKuxsMbic--qx2g/export?format=csv'
+url = 'https://docs.google.com/spreadsheets/d/SUA_PLANILHA_DISPONIBILIDADE/export?format=csv'
 planilha = pd.read_csv(url)
 
 # ── Pessoas fixas (nunca entram no rodízio) ───────────────────────────────────
