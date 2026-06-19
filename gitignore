@@ -1,0 +1,10 @@
+# Credenciais Google
+credencial.json
+
+# Histórico de escalas
+historico.json
+
+# Python
+__pycache__/
+*.pyc
+.env
